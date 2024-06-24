@@ -1,0 +1,77 @@
+============2024-02-21 17:34:46============
+"requestData": {"userName":"huang1","password":"hxxk,1431"}
+"responseData": {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkxMTI4ODYsInN1YiI6Imh1YW5nMSQyYSQxMCRxS1gwdS5BYWVkeHl0Lk1sNG0yVEVPNU5nWlFhSDdwQUQ0MWdsai9PT05pVktJVGIxZWFXQyJ9.HpexCBE594co9F22rzJlt8n3ijKs1MYqJy1XXabYM24"}
+"level": "info"
+"time": "2024-02-21 17:34:46"
+"code": "200"
+"duration": "54 ms"
+"ip": "127.0.0.1"
+"method": "POST"
+"url": "/login"
+===========================================
+============2024-02-21 18:04:18============
+"requestData": {"userName":"huang1","password":"hxxk,1431"}
+"responseData": {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkxMTQ2NTgsInN1YiI6Imh1YW5nMSQyYSQxMCRxS1gwdS5BYWVkeHl0Lk1sNG0yVEVPNU5nWlFhSDdwQUQ0MWdsai9PT05pVktJVGIxZWFXQyJ9.mhnXQvKCXslwGdTdm4H-87-Ima8mfpBvF33iGLIC-2c"}
+"level": "info"
+"time": "2024-02-21 18:04:18"
+"code": "200"
+"duration": "55 ms"
+"ip": "127.0.0.1"
+"method": "POST"
+"url": "/login"
+===========================================
+============2024-02-21 19:52:41============
+"requestData": {"userName":"huang1","password":"hxxk,1431"}
+"responseData": {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkxMjExNjEsInN1YiI6Imh1YW5nMSQyYSQxMCRxS1gwdS5BYWVkeHl0Lk1sNG0yVEVPNU5nWlFhSDdwQUQ0MWdsai9PT05pVktJVGIxZWFXQyJ9.e0v3ANH1IXYwOaV8JLalkTViE12dXU-b24_KRNzp5Dc"}
+"level": "info"
+"time": "2024-02-21 19:52:41"
+"code": "200"
+"duration": "50 ms"
+"ip": "127.0.0.1"
+"method": "POST"
+"url": "/login"
+===========================================
+============2024-02-21 21:52:45============
+"url": "/login"
+"requestData": {"userName":"huang1","password":"hxxk,1431"}
+"responseData": null
+"level": "warning"
+"time": "2024-02-21 21:52:45"
+"code": "401"
+"duration": "17 ms"
+"ip": "127.0.0.1"
+"method": "POST"
+===========================================
+============2024-02-21 21:52:55============
+"url": "/register"
+"requestData": {"userName":"huang1","password":"hxxk,1431"}
+"responseData": null
+"level": "info"
+"time": "2024-02-21 21:52:55"
+"code": "201"
+"duration": "60 ms"
+"ip": "127.0.0.1"
+"method": "POST"
+===========================================
+============2024-02-21 21:53:09============
+"url": "/login"
+"requestData": {"userName":"huang1","password":"hxxk,1431"}
+"responseData": {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkxMjgzODksInN1YiI6Imh1YW5nMSQyYSQxMCREQTA4MnZZYUtNazQ5N0Q1REVRRnZ1Y05yYlhjdTNPNUZtRFR2S0N6eDFhS29STFcwaTQuLiJ9.TWBb_qy96NNFdfxFZkSJ5_Vg8jAQ7YxClE6RQbXwWgU"}
+"level": "info"
+"time": "2024-02-21 21:53:09"
+"code": "200"
+"duration": "53 ms"
+"ip": "127.0.0.1"
+"method": "POST"
+===========================================
+============2024-02-21 21:54:21============
+"url": "/login"
+"requestData": {"userName":"huang1","password":"hxxk,1431"}
+"responseData": {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkxMjg0NjEsInN1YiI6Imh1YW5nMSQyYSQxMCREQTA4MnZZYUtNazQ5N0Q1REVRRnZ1Y05yYlhjdTNPNUZtRFR2S0N6eDFhS29STFcwaTQuLiJ9.Ha43G7TX0pVjNh1PnTPj1xgXq2_h16wsmU0Qsqy6k2o"}
+"level": "info"
+"time": "2024-02-21 21:54:21"
+"code": "200"
+"duration": "52 ms"
+"ip": "127.0.0.1"
+"method": "POST"
+===========================================

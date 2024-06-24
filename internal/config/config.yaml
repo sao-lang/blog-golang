@@ -1,0 +1,16 @@
+database:
+    host: localhost
+    port: 9999
+    user: postgres
+    password: '123456'
+    databaseName: blog
+secretKey: 123456
+middlewaresKeys:
+    response:
+        response: 'response'
+        statusCode: 'statusCode'
+        message: 'message'
+    validate:
+        validated: 'validated'
+    auth:
+        tokenKey: 'Authorization'
