@@ -9,7 +9,7 @@ import (
 )
 
 type Config struct {
-	Database struct {
+	PgSql struct {
 		Host         string
 		Port         int
 		User         string
@@ -31,6 +31,8 @@ type Config struct {
 		}
 	}
 	ConfigKey string
+	Minio     struct {
+	}
 }
 
 func LoadConfig() (*Config, error) {

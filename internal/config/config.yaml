@@ -1,6 +1,6 @@
-database:
+pgSql:
     host: localhost
-    port: 9999
+    port: 5432
     user: postgres
     password: '123456'
     databaseName: blog
@@ -14,3 +14,7 @@ middlewaresKeys:
         validated: 'validated'
     auth:
         tokenKey: 'Authorization'
+minio:
+    port: 9000
+    user: root,
+    password: '12345678'

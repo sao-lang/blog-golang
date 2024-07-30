@@ -3,6 +3,7 @@
         "Chiang",
         "gonic",
         "gorm",
+        "minio",
         "sslmode",
         "webp"
     ]
