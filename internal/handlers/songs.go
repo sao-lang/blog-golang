@@ -146,11 +146,21 @@ type Song struct {
 	Name        string `json:"name"`
 }
 
+type response struct {
+	Code    int         `json:"code"`
+	Message string      `json:"message"`
+	Data    interface{} `json:"data"`
+}
+
 func GetSongs(context *gin.Context) {
 	// json := gin.H{"source": "../../../../public/audio/最后一页.aac", "singerPhoto": "../../../../public/audio/江语晨.webp"}
 	list := []Song{
 		{Source: "../../../../public/audio/最后一页.aac", SingerPhoto: "../../../../public/audio/江语晨.webp", Lyric: Lrc1, Singer: "江语晨", Name: "最后一页"},
 		{Lyric: Lrc2, Singer: "郭顶", SingerPhoto: "../../../../public/audio/郭顶.webp", Source: "../../../../public/audio/凄美地.mp3", Name: "凄美地"},
 	}
-	context.JSON(http.StatusOK, list)
+	context.JSON(http.StatusOK, response{
+		Code:    http.StatusOK,
+		Message: "internal server error",
+		Data:    list,
+	})
 }
